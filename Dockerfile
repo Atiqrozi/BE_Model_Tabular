@@ -19,4 +19,4 @@ COPY . .
 EXPOSE 7860
 
 # Run the Flask app with Gunicorn
-CMD ["gunicorn", "-b", "0.0.0.0:7860", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:7860", "wsgi:app"]
