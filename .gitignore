@@ -10,6 +10,7 @@ __pycache__/
 
 # Model Files (jika besar)
 *.pkl
+!app/model/xgb_model.pkl
 *.joblib
 *.h5
 *.keras
